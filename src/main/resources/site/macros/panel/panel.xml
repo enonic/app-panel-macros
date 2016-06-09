@@ -1,0 +1,22 @@
+<macro>
+  <display-name>Panels macro</display-name>
+  <description>Different notification panels</description>
+  <form>
+    <input name="type" type="ComboBox">
+      <label>Type</label>
+      <occurrences minimum="0" maximum="1"/>
+      <default>info</default>
+      <config>
+        <option value="info">Info</option>
+        <option value="note">Note</option>
+        <option value="success">Success</option>
+        <option value="error">Error</option>
+      </config>
+    </input>
+    <input name="styling" type="Checkbox">
+      <label>Default styling</label>
+      <occurrences minimum="0" maximum="1"/>
+      <default>checked</default>
+    </input>
+  </form>
+</macro>
