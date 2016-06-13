@@ -1,6 +1,6 @@
 <macro>
-  <display-name>Panel macro</display-name>
-  <description>Notification panel</description>
+  <display-name>Error panel macro</display-name>
+  <description>Error notification panel</description>
   <form>
     <input name="body" type="TextArea">
       <label>Text</label>
