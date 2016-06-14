@@ -2,15 +2,15 @@
   <display-name>Info panel macro</display-name>
   <description>Info notification panel</description>
   <form>
+    <input name="header" type="TextLine">
+      <label>Header</label>
+      <occurrences minimum="0" maximum="1"/>
+      <default>Panel header</default>
+    </input>
     <input name="body" type="TextArea">
       <label>Text</label>
-      <occurrences minimum="0" maximum="1"/>
+      <occurrences minimum="1" maximum="1"/>
       <default>Panel text goes here...</default>
-    </input>
-    <input name="styling" type="Checkbox">
-      <label>Default styling</label>
-      <occurrences minimum="0" maximum="1"/>
-      <default>checked</default>
     </input>
   </form>
 </macro>
