@@ -1,12 +1,13 @@
 # Panel macros app
 There are 5 different panels inside:
-1. Default grey panel without an icon
-2. Info panel with icon
-3. Note panel with icon
-4. Error panel with icon
-5. Success panel with icon
 
-![Panels](images/panels.png)
+- Default grey panel without an icon
+- Info panel with icon
+- Note panel with icon
+- Error panel with icon
+- Success panel with icon
+
+![Panels](https://github.com/enonic/app-panel-macros/blob/d88ab0ae2e485aece765c21f14ec255497faf337/images/panels.PNG)
 
 ## Installing
 It's as easy as installing this app from enonic market and adding it to your site
@@ -36,7 +37,7 @@ Now if we choose info panel macro and add some text to it following text will be
 ```
 This will look like this:
 
-![Info panel](images/info.png)
+![Info panel](https://github.com/enonic/app-panel-macros/blob/d88ab0ae2e485aece765c21f14ec255497faf337/images/info.PNG)
 
 We can also add headers to our panels what will produce the following:
 ```
@@ -44,7 +45,7 @@ We can also add headers to our panels what will produce the following:
 ```
 That will look like this:
 
-![Error panel](images/error.png)
+![Error panel](https://github.com/enonic/app-panel-macros/blob/d88ab0ae2e485aece765c21f14ec255497faf337/images/error.PNG)
 
 Alternatively we can omit the body and have just the header:
 ```
@@ -52,11 +53,11 @@ Alternatively we can omit the body and have just the header:
 ```
 Which will give it some stress:
 
-![Note panel](images/note.png)
+![Note panel](https://github.com/enonic/app-panel-macros/blob/d88ab0ae2e485aece765c21f14ec255497faf337/images/note.PNG)
 
 And one more thing...messages can be multiline:
 ```
 [success header="Success story"]Success story text goes here and is hopefully long enough to demonstrate that messages can be as long as your imagination allows[/success]
 ```
 
-![Success panel](images/success.png)
+![Success panel](https://github.com/enonic/app-panel-macros/blob/d88ab0ae2e485aece765c21f14ec255497faf337/images/success.PNG)
