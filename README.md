@@ -20,7 +20,7 @@ The most basic panel will create the following text inside html area:
 ```
 Which will look like this in preview and portal
 
-![Default panel](images/default.png)
+![Default panel](https://github.com/enonic/app-panel-macros/blob/912220fdb2c128c9eb34136c1a76ae011e35982f/images/default.PNG)
 
 Other panels available are:
 ```
