@@ -4,7 +4,6 @@ function renderPanel(context, portal, panelStyle) {
 
     var config = portal.getSiteConfig();
     var custom = config && config['custom'];
-    log.info('Config=' + JSON.stringify(config));
 
     var contributions;
     if (!custom) {
