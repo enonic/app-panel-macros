@@ -65,11 +65,12 @@
     color: #333;
 }
 
-.macro-panel.macro-panel-styled h4 {
+.macro-panel.macro-panel-styled strong {
     font-size: 14px;
     font-weight: bold;
     line-height: 24px;
     margin: 0;
+    display: block;
 }
 
 /*      Default panel   */
@@ -90,8 +91,7 @@
     display: block;
     position: absolute;
     font-size: 24px;
-    top: 50%;
-    margin-top: -12px;
+    top: 10px;
     left: 10px;
 }
 

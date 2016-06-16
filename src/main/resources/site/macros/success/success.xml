@@ -5,7 +5,6 @@
     <input name="header" type="TextLine">
       <label>Header</label>
       <occurrences minimum="0" maximum="1"/>
-      <default>Panel header</default>
     </input>
     <input name="body" type="TextArea">
       <label>Text</label>

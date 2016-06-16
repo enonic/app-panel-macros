@@ -15,7 +15,7 @@ function renderPanel(context, portal, panelStyle) {
     }
 
     var stylingClass = !custom ? 'macro-panel-styled' : '';
-    var headerEl = panelHeader && panelHeader.trim().length > 0 ? ('<h4>' + panelHeader + '</h4>') : '';
+    var headerEl = panelHeader && panelHeader.trim().length > 0 ? ('<strong>' + panelHeader + '</strong>') : '';
 
     return {
         body: '<div class="macro-panel ' + panelStyle + ' ' + stylingClass + '"><i class="icon"></i>' + headerEl + panelBody + '</div>',
