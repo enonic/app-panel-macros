@@ -7,7 +7,7 @@ There are 5 different panels inside:
 - Error panel with icon
 - Success panel with icon
 
-![Panels](https://github.com/enonic/app-panel-macros/blob/d88ab0ae2e485aece765c21f14ec255497faf337/images/panels.PNG)
+![Panels](https://github.com/enonic/app-panel-macros/blob/master/images/panels.PNG)
 
 ## Installing
 It's as easy as installing this app from enonic market and adding it to your site
@@ -21,7 +21,7 @@ The most basic panel will create the following text inside html area:
 ```
 Which will look like this in preview and portal
 
-![Default panel](https://github.com/enonic/app-panel-macros/blob/912220fdb2c128c9eb34136c1a76ae011e35982f/images/default.PNG)
+![Default panel](https://github.com/enonic/app-panel-macros/blob/master/images/default.PNG)
 
 Other panels available are:
 ```
@@ -37,7 +37,7 @@ Now if we choose info panel macro and add some text to it following text will be
 ```
 This will look like this:
 
-![Info panel](https://github.com/enonic/app-panel-macros/blob/d88ab0ae2e485aece765c21f14ec255497faf337/images/info.PNG)
+![Info panel](https://github.com/enonic/app-panel-macros/blob/master/images/info.PNG)
 
 We can also add headers to our panels what will produce the following:
 ```
@@ -45,7 +45,7 @@ We can also add headers to our panels what will produce the following:
 ```
 That will look like this:
 
-![Error panel](https://github.com/enonic/app-panel-macros/blob/d88ab0ae2e485aece765c21f14ec255497faf337/images/error.PNG)
+![Error panel](https://github.com/enonic/app-panel-macros/blob/master/images/error.PNG)
 
 Alternatively we can omit the body and have just the header:
 ```
@@ -53,11 +53,11 @@ Alternatively we can omit the body and have just the header:
 ```
 Which will give it some stress:
 
-![Note panel](https://github.com/enonic/app-panel-macros/blob/d88ab0ae2e485aece765c21f14ec255497faf337/images/note.PNG)
+![Note panel](https://github.com/enonic/app-panel-macros/blob/master/images/note.PNG)
 
 And one more thing...messages can be multiline:
 ```
 [success header="Success story"]Success story text goes here and is hopefully long enough to demonstrate that messages can be as long as your imagination allows[/success]
 ```
 
-![Success panel](https://github.com/enonic/app-panel-macros/blob/d88ab0ae2e485aece765c21f14ec255497faf337/images/success.PNG)
+![Success panel](https://github.com/enonic/app-panel-macros/blob/master/images/success.PNG)
