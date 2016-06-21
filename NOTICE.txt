@@ -1,0 +1,13 @@
+Licenses used by Panel macros app
+
+Software licenses used by this product:
+
+    Enonic XP
+    GNU Affero General Public License
+    http://www.gnu.org/licenses/
+
+Artwork licenses used by this product:
+
+    IcoMoon icons (Free version)
+    GNU General Public License
+    https://icomoon.io/#icons-icomoon/license
