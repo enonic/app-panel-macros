@@ -1,5 +1,5 @@
 <macro>
-  <display-name>Panel macro</display-name>
+  <display-name>Panel</display-name>
   <description>Notification panel</description>
   <form>
     <input name="header" type="TextLine">
@@ -9,7 +9,6 @@
     <input name="body" type="TextArea">
       <label>Text</label>
       <occurrences minimum="0" maximum="1"/>
-      <default>Panel text goes here...</default>
     </input>
   </form>
 </macro>

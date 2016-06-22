@@ -27,20 +27,11 @@ dependencies {
 
 repositories {
     mavenLocal()
-    jcenter()
-    maven {
-        url 'http://repo.enonic.com/public'
-    }
-}
-
-repositories {
-    mavenLocal()
     mavenCentral()
     maven {
         url 'http://repo.enonic.com/public'
     }
 }
-
 
 uploadArchives {
     repositories {
