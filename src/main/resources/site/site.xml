@@ -5,10 +5,10 @@
     <name>Enonic AS</name>
     <url>http://www.enonic.com</url>
   </vendor>
-  <config>
+  <form>
     <input name="custom" type="Checkbox">
       <label>Custom styling</label>
       <occurrences minimum="0" maximum="1"/>
     </input>
-  </config>
+  </form>
 </site>
