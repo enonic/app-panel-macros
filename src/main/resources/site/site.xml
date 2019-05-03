@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
   <display-name>Panel Macros</display-name>
-  <vendor>
-    <name>Enonic AS</name>
-    <url>http://www.enonic.com</url>
-  </vendor>
   <form>
     <input name="custom" type="Checkbox">
       <label>Custom styling</label>
