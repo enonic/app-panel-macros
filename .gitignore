@@ -1,4 +1,6 @@
+/.enonic
 /bin/
+/node_modules/
 
 ### OSX ###
 .DS_Store
