@@ -1,0 +1,20 @@
+{
+    "include": [
+        "src/main/resources/**/*.ts"
+    ],
+    "exclude": [
+        "src/main/resources/assets/**/*.ts",
+        "src/main/resources/**/*.d.ts"
+    ],
+    "compilerOptions": {
+        "paths": {
+            "/lib/enonic/asset": ["./node_modules/@enonic-types/lib-asset"],
+            "/lib/panel-common": ["./src/main/resources/lib/panel-common"],
+            "/lib/xp/portal": ["./node_modules/@enonic-types/lib-portal"]
+        },
+        "skipLibCheck": true,
+        "types": [
+            "@enonic-types/global"
+        ]
+    }
+}

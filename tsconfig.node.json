@@ -1,0 +1,10 @@
+{
+    "include": [
+        "./tsup.config.ts"
+    ],
+    "compilerOptions": {
+        "types": [
+            "node"
+        ]
+    }
+}
