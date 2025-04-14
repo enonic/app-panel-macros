@@ -16,7 +16,7 @@ app {
 dependencies {
     include "com.enonic.xp:lib-io:${xpVersion}"
     include "com.enonic.xp:lib-portal:${xpVersion}"
-    include "com.enonic.lib:lib-asset:1.0.1"
+    include "com.enonic.lib:lib-asset:1.0.2"
 }
 
 repositories {
