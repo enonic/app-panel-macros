@@ -4,7 +4,7 @@
     "@enonic-types/global": "^7.15.3",
     "@enonic-types/lib-asset": "^1.0.3",
     "@enonic-types/lib-portal": "^7.15.3",
-    "@swc/core": "^1.11.29",
+    "@swc/core": "^1.12.9",
     "@types/node": "^24.0.8",
     "tsup": "^8.5.0",
     "typescript": "^5.8.3"
