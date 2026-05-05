@@ -1,0 +1,8 @@
+kind: "CMS"
+form:
+  - type: "CheckBox"
+    name: "custom"
+    label: "Custom styling"
+    occurrences:
+      min: 0
+      max: 1

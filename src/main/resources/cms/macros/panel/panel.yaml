@@ -1,0 +1,16 @@
+kind: "Macro"
+title: "Panel"
+description: "Notification panel"
+form:
+  - type: "TextLine"
+    name: "header"
+    label: "Header"
+    occurrences:
+      min: 0
+      max: 1
+  - type: "TextArea"
+    name: "body"
+    label: "Text"
+    occurrences:
+      min: 0
+      max: 1
