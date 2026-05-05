@@ -1,22 +1,14 @@
 plugins {
     id 'com.enonic.defaults' version '2.1.6'
-    id 'com.enonic.xp.app' version '3.6.2'
+    id 'com.enonic.xp.app'
     id 'com.github.node-gradle.node' version '7.1.0'
     id 'maven-publish'
 }
 
-app {
-    name = project.appName
-    displayName = 'Panel Macros App'
-    vendorName = 'Enonic AS'
-    vendorUrl = 'https://enonic.com'
-    systemVersion = "${xpVersion}"
-}
-
 dependencies {
-    include "com.enonic.xp:lib-io:${xpVersion}"
-    include "com.enonic.xp:lib-portal:${xpVersion}"
-    include "com.enonic.lib:lib-asset:1.0.3"
+    include xplibs.io
+    include xplibs.portal
+    include 'com.enonic.lib:lib-asset:1.0.3'
 }
 
 repositories {
