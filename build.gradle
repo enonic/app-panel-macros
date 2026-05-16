@@ -8,13 +8,14 @@ plugins {
 dependencies {
     include xplibs.io
     include xplibs.portal
-    include 'com.enonic.lib:lib-asset:1.0.3'
+    include 'com.enonic.lib:lib-asset:2.0.0-SNAPSHOT'
 }
 
 repositories {
     mavenLocal()
     mavenCentral()
     xp.enonicRepo()
+    xp.enonicRepo('dev')
 }
 
 node {
