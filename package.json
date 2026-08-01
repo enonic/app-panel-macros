@@ -3,7 +3,7 @@
     "@enonic-types/core": "^8.0.2",
     "@enonic-types/global": "^8.0.2",
     "@enonic-types/lib-asset": "^2.0.1",
-    "@enonic-types/lib-portal": "^8.0.2",
+    "@enonic-types/lib-portal": "^8.0.3",
     "@swc/core": "^1.15.43",
     "@types/node": "^26.0.1",
     "tsup": "^8.5.1",
