@@ -6,7 +6,7 @@
     "@enonic-types/lib-portal": "^8.1.2",
     "@swc/core": "^1.16.20",
     "@types/node": "^26.6.6",
-    "tsup": "^8.5.1",
+    "tsup": "^9.0.0",
     "typescript": "^5.9.3"
   },
   "private": true,
